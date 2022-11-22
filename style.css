@@ -23,6 +23,8 @@ body {
   padding: 10px 20px;
 }
 
+
+
 .logo_content .logo {
   color: #11101d;
   display: flex;
@@ -51,7 +53,7 @@ body {
 }
 
 .sidebar ul {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -70,7 +72,7 @@ body {
   font-size: 20px;
   border: none;
   outline: none;
-  background: #d9d9d9;
+  background: #1ce0c6;
   color: #11101d;
   padding-left: 50px;
 }
@@ -109,16 +111,15 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #dce4e3;
+  background: #1ce0c6;
   color: #11101d;
-  
 }
 
 .profile {
   position: relative;
   padding: 10px 6px;
   height: 60px;
-  bottom:5px;
+  bottom: 5px;
 }
 
 .profile_details {
@@ -131,7 +132,6 @@ body {
   width: 50px;
   object-fit: cover;
   border-radius: 8px;
-  
 }
 
 .name_job {
@@ -149,10 +149,23 @@ body {
 .profile #log_out {
   position: absolute;
   top: 20px;
-  
+
   left: 90%;
   transform: translateX(-50%);
   min-height: 50px;
   min-width: 50px;
   font-size: 30px;
+}
+
+.dashboard_content {
+  position: relative;
+  height: 100%;
+  width: calc(100% - 300px);
+  left: 300px;
+}
+
+.text {
+  font-size: 30px;
+  margin: 20px;
+  color: #11101d;
 }
